@@ -1,43 +1,89 @@
 <html>
     <head>
+        
         <title>Diamond Bakery</title>
+        <style>
+            body
+            {
+                background-color: white;
+                
+            }
+            
+            h2{
+                font-size: 25px;
+                font-family: sans-serif;
+                text-decoration: underline;
+                text-decoration-color: black;
+                
+            }
+            h3{
+                
+                font-family: cursive;
+                text-decoration: none;
+                
+                
+            }
+            
+            h4{
+                font-size: 18px;
+                font-family: cursive;
+                text-decoration: none;
+                
+                
+            }
+            
+            button{
+                padding: 8px 16px;
+                display: inline-block;
+                border-radius: 3px;
+                background-color: #ccc;
+                text-decoration: none;
+                font-family: cursive;
+                font-weight: bold;
+            }
+        </style>
     </head>
     
     <body>
         <center>
         <div style= "height:120px; width:100%">
                      <div style="height:110px; width:10%; float: left"></div>
-        <img src="/bakery/Images/logo.png"; height="120"; width="140"; align="left">
+        <img src="logo.png"; height="120"; width="140"; align="left">
             <hr>
+            
             <h4 align="center"><a href="">HOME</a>&nbsp;&nbsp; &nbsp;&nbsp;
                 <a href="#aboutus">ABOUT US</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#menu">MENU</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#services">SERVICES </a>   &nbsp;&nbsp;
-                <a href="#contactus">CONTACT US </a>&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <a href="#contactus">CONTACT US </a>&nbsp;&nbsp;&nbsp;&nbsp;
             
+                <button>ORDER NOW</button>
+        
+              </h4>
         </div>
-        <div style="height:500px; width:100%; background-color:beige">
-            <img src="/bakery/Images/main.jpg"; height="500px"; width="100%">
+        <div style="height:500px; width:100%;">
+            <img src="main.jpg"; height="500px"; width="100%">
         </div>
-            <div style="height:50px; width:100%; margin-top: 30px">
+            <div class="menu"; style="height:50px; width:100%; margin-top: 30px;">
                 <h2 id="menu">MENU</h2>
             </div>
         
-        <div style="height:400px; width:100%; background-color:beige; margin-top: 20px">
-            <div style="height:300px; width:30%; background-color:black; float:left; margin-left: 20px">
-             <img src="/bakery/Images/muffins.jpeg"; height="300px"; width="100%"; align="left";> 
+        <div class="main" style="height:400px; width:100%; margin-top: 20px">
+            <div style="height:300px; width:30%; float:left; margin-left: 20px">
+             <img src="muffins.jpeg"; height="300px"; width="100%"; align="left";> 
                 <h3>Muffins</h3>
                 <a href="#muffins">View More</a>
             </div>
-             <div style="height:300px; width:30%; background-color:black; float:left; margin-left: 50px">
-             <img src="/bakery/Images/cookies.jpeg"; height="300px"; width="100%"; align="left";> 
+             <div style="height:300px; width:30%; float:left; margin-left: 50px">
+             <img src="cookies.jpeg"; height="300px"; width="100%"; align="left";> 
                  <h3>Cookies</h3>
-                <a href="#cookies">View More</a>
+                <a href="#cookies" class="h3">View More</a>
             </div>
-            <div style="height:300px; width:30%; background-color:black; float:left; margin-left: 50px">
-             <img src="/bakery/Images/cake.jpeg"; height="300px"; width="100%"; align="left";>   
+            <div style="height:300px; width:30%; float:left; margin-left: 50px">
+             <img src="cake.jpeg"; height="300px"; width="100%"; align="left";>   
                 <h3>Cakes</h3>
-                <a href="#cake">View More</a>
+                <a href="#cake" class="h3">View More</a>
+                
             </div>
             
         </div>
@@ -83,7 +129,7 @@
         
          </div>
             <div style="height:350px; width:50%; float:left">
-            <img src="/bakery/Images/catering2.jpg"; height="250px"; width="100%">
+            <img src="catering2.jpg"; height="250px"; width="100%">
             </div>
         
         </div>
@@ -99,7 +145,7 @@
             </div>
             
              <div style="height:400px; width:50%; background-color:lavender; float:left;">
-                <img src="/bakery/Images/about.jpg"; height="400px"; width="100%">  
+                <img src="about.jpg"; height="400px"; width="100%">  
             </div>
             
             
